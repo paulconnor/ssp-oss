@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  ssp-oss:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-07-14T14:23:09.79952908+10:00"
+    dependencies:
+    - name: elasticsearch
+      repository: https://helm.elastic.co/
+      version: ^7.8.0
+    - name: kibana
+      repository: https://helm.elastic.co/
+      version: ^7.8.0
+    - name: jaeger-operator
+      repository: https://jaegertracing.github.io/helm-charts
+      version: ^2.14.2
+    - name: prometheus-operator
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: ^8.16.1
+    description: SSP Operations Support Systems
+    digest: 164b5fb55622c2bbc26f5da7f2fc2ae3c89b7d4f51e3f8be6d03ce96f46f098a
+    name: ssp-oss
+    urls:
+    - ssp-oss-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-07-14T14:23:09.767148966+10:00"
